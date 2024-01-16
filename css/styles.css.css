@@ -1,0 +1,136 @@
+/* styles.css */
+
+/* Add styles for navigation links */
+nav ul {
+    list-style: none;
+    background-color: #f4f4f4; /* Background color for the navigation bar */
+    display: flex;
+    padding: 10px;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+/* Underline the links with icons */
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a i {
+    margin-right: 5px;
+}
+
+
+/* Apply the font to the entire body */
+body {
+    font-family: 'Roboto', sans-serif; /* Change the font-family to your desired font */
+}
+
+/* Centered footer content */
+.footer-section {
+    background-color: #3cad77; /* Example background color for the footer */
+    color: #fff; /* Example text color for the footer content */
+    text-align: center;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif; /* Change the font-family to your desired font */
+}
+
+.footer-content {
+    width: 100%; /* Adjust as needed */
+    margin: 0 auto; /* Center the content horizontally */
+    font-family: 'Roboto', sans-serif; /* Change the font-family to your desired font */
+}
+
+/* Additional styles for other elements within the footer if needed */
+
+
+
+
+/* styles.css */
+
+/* Add styles for page content */
+.page-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Add styles for the data table */
+.qualification-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.qualification-table th,
+.qualification-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.qualification-table th {
+    background-color: #f4f4f4;
+}
+
+/* Other styles for the page as needed */
+
+/* Add styles for page content */
+.page-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Add styles for the introduction paragraph */
+.page-content p {
+    margin-bottom: 20px;
+}
+
+/* Add styles for the data table */
+.training-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.training-table th,
+.training-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.training-table th {
+    background-color: #f4f4f4;
+}
+
+/* Other styles for the page as needed */
+
+/* Add styles for page content */
+.page-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Add styles for headings and paragraphs */
+.page-content h2, .page-content p {
+    margin-top: 20px;
+}
+
+/* Add styles for lists */
+.page-content ol, .page-content ul {
+    margin-bottom: 20px;
+}
+
+/* Other styles for the page as needed */

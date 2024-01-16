@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css.css">
+    <script src="js/script.js" defer></script>
+    <title>Contact Us - Australian Training Company</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            <img src="../resource/atc_logo.png" alt="ATC Logo" id="logo" onclick="goToHomePage()">
+        </a>
+    </header>
+
+    <h1>Contact Us</h1>
+
+    <nav>
+        <ul>
+            <li><a href="../pages/areas-of-study.html.html">Areas of Study</a></li>
+            <li><a href="../pages/training-programs.html.html">Training Programs</a></li>
+            <li><a href="../pages/enrolment.html.html">Enrolment</a></li>
+            <li><a href="../pages/contact-us.html.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="page-content">
+            
+
+            <address>
+                <h2>New South Wales</h2>
+                <h3>Sydney</h3>
+                30-32 Pomeroy Street<br>
+                Homebush NSW 2140<br>
+                PO Box 3165<br>
+                North Strathfield NSW 2137<br><br>
+
+                <strong>Group Training Company</strong><br>
+                Ph: 1300 737 822<br><br>
+
+                <strong>Training Centre</strong><br>
+                Ph: 02 9704 1500<br>
+                E: <a href="mailto:training@austrg.com.au">training@austrg.com.au</a>
+            </address>
+
+            <address>
+                <h3>Kiama</h3>
+                20 Bong Bong Street<br>
+                Kiama NSW 2533<br><br>
+
+                <strong>Group Training Centre</strong><br>
+                Ph: 1300 737 822
+            </address>
+
+            <address>
+                <h3>Bega</h3>
+                C/- Bega Valley Regional Learning Centre<br>
+                10/14 Cabarita Place<br>
+                Merimbula NSW 2548<br><br>
+
+                <strong>Group Training Centre</strong><br>
+                Ph: 1300 737 822
+            </address>
+
+            <address>
+                <h3>Batemans Bay</h3>
+                35 Old Pacific Highway<br>
+                Batemans Bay NSW 2536
+            </address>
+
+            <address>
+                <h2>ACT</h2>
+                <h3>Canberra</h3>
+                Unit 4, Level 1<br>
+                31 – 37 Townshend Street<br>
+                Phillips ACT 2606<br><br>
+
+                <strong>Ph:</strong> 1300 737 822
+            </address>
+
+            <address>
+                <h2>Queensland</h2>
+                <h3>Brisbane</h3>
+                Unit 4, 211 Logan Road<br>
+                Buranda QLD 4120<br><br>
+
+                <strong>Group Training Centre</strong><br>
+                Ph: 1300 737 822
+            </address>
+
+            <address>
+                <h3>Gold Coast</h3>
+                Suite 101, 20 Lake Orr Drive<br>
+                Varsity Lakes QLD 4227<br><br>
+
+                <strong>Group Training Centre</strong><br>
+                Ph: 1300 737 822
+            </address>
+
+            <!-- Inquiry Form -->
+            <form id="inquiryForm" onsubmit="submitForm(event)">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="mobile">Mobile Number:</label>
+                <input type="tel" id="mobile" name="mobile" required>
+
+                <label for="question">Your Question:</label>
+                <textarea id="question" name="question" rows="4" required></textarea>
+
+                <input type="submit" value="Submit Inquiry">
+            </form>
+
+            <!-- Confirmation Message (Initially hidden) -->
+            <div id="confirmationMessage" style="display: none;">
+                <p>We have received your inquiry. We will get back to you soon. Thank you for contacting ATC.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-section">
+        <div class="footer-content">
+            <p>&copy; 2023 Australian Training Company. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
